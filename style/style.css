@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: auto;
 }
 
 .Travel{
@@ -8,14 +8,112 @@
     background-size: cover;
     height: 800px;
 }
-.Travel h1{
+h3{
     
-    color: aliceblue;
+    color: rgb(18, 80, 6);
     font-weight: 900px;
     text-align: center;
     font-size: 50px;
     padding-top: 60px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     letter-spacing: 10px;
-    word-spacing: 2px;
+    word-spacing: 2px; padding-bottom: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    
 }
+.Travel h1{
+    
+    color: aliceblue;
+    padding: 10px;
+    border-bottom: solid;
+    border-width: 2px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-weight: 900px;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 10px;
+    word-spacing: 2px;
+    
+    
+    
+}
+
+.image{
+    display: flex;
+     gap: 20px;
+     padding: 50px;
+     margin: 60px auto;
+}
+.image div{
+   min-width: 300px; 
+}
+.image img{
+       width: 100%;   
+}
+ .dhaka{
+    background-color: rgb(9, 0, 128);
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px; 
+ }
+ .dhaka h2{
+    color: aliceblue;
+    text-align: center;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+
+ }
+ .chottrogram{
+    background-color: green;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px; 
+    
+ }
+ .chottrogram h2{
+    color: aliceblue;
+    text-align: center;
+    font-family: initial;  
+    padding-bottom: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0; 
+ }
+ .Sylhet{
+    background-color: orangered;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px; 
+ }
+ .Sylhet h2{
+    color: aliceblue;
+    padding-top: 5px;
+    text-align: center;
+    font-family: initial;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    
+ }
+ 
+
+
+ 
